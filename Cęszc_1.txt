@@ -1,0 +1,74 @@
+Zajęcia 8  Javascript cz.11Zajęcia 8 – Javascript cz.1
+Środowisko online:
+Javascript: https://runjs.co
+Zadanie 1
+Uruchom przykładowy program w Javascript.
+let a = 10;
+console.log(a == 10)
+console.log(a == "10")
+console.log(a != 20)
+console.log(a != 10)
+console.log(a != "10")
+console.log(a === 10)
+console.log(a === "10")
+Zajęcia 8  Javascript cz.12console.log(a !== 10)
+console.log(a !== "10")
+Zapoznaj się z operatorami w Javascript. https://kursjs.pl/kurs/super-
+podstawy/operatory.
+Opisz różnicę między operatorem == a operatorem === .
+Zadanie 2
+Zapoznaj się z typami zmiennych w Javascript: https://kursjs.pl/kurs/super-
+podstawy/zmienne
+a) Opisz różnicę między let / const / var .
+b) Z jakiego rodzaju typowania korzysta Javascript?
+Zadanie 3
+Zapoznaj się ze sposobami konstruowania funkcji: https://kursjs.pl/kurs/super-
+podstawy/funkcje. Napisz funkcję printNumbers(nr) , która wymagać będzie liczby.
+Funkcja powinna zwrócić tekst, który będzie składał się z kolejnych liczb.
+Zadanie 4
+Stwórz funkcję generateRandom(min, max) , która będzie przyjmować dwie wartości -
+min i max. Funkcja powinna zwrócić losową liczbę z podanego przedziału. Do
+generowania losowej liczby możesz użyć wzoru: Math.floor(Math.random()*(max-
+min+1)+min) .
+Wykorzystaj ją do utworzenia 10 liczb z przedziału 1 - 20 . Jeżeli połowa z nich
+będzie większa od 10 , wypisz tekst udało się , w przeciwnym razie wypisz w
+konsoli tekst niestety nie .
+Zadanie 5
+Zapoznaj się ze sposobami przetwarzania napisów: https://kursjs.pl/kurs/super-
+podstawy/string. Napisz funkcję checkPalindrom(txt) , która zwróci true/false w
+Zajęcia 8  Javascript cz.13zależności od tego, czy przekazane słowo jest palindromem.
+Zadanie 6
+Zapoznaj się ze sposobami działania na tablicach: https://kursjs.pl/kurs/super-
+podstawy/tablice. Stwórz funkcję random(max) , która będzie zwracać losową liczbę
+z zakresu 0 - max . Wykorzystaj tą funkcję do wygenerowania 20-elementowej
+tablicy. Posortuj tą tablicę, a następnie wypisz sumę oraz średnią wszystkich liczb
+z tej tablicy.
+Zadanie 7
+Jako poszukiwacz przygód, doszedłeś do tajemniczej komnaty, na ścianie której
+znajduje się tajemniczy zapis:
+const arr = [
+[ 66, 97, 114, 100, 4, 2, 110, 11, 1, 6, 20,
+],
+[ 99, 3, 10, 122, 76, 101, 111, 3, 32, 100, 0,
+],
+[ 6, 22, 1, 111, 32, 10, 110, 7, 97, 97, 67,
+],
+[ 60, 97, 116, 32, 100, 23, 97, 114, 100, 32, 34,
+],
+[ 2, 106, 15, 6, 111, 56, 80, 20, 10, 86, 10,
+],
+[ 20, 110, 121, 32, 107, 55, 50, 99, 110, 105, 8,
+],
+[ 12, 9, 22, 102, 66, 100, 12, 105, 50, 76, 110,
+],
+[ 42, 81, 123, 92, 26, 98, 20, 1, 20, 11, 10,
+],
+]
+W starych notatkach znajdujesz tylko krótki ciąg, który ponoć wskazuje kierunek
+poruszania się po powyższym zapisie.
+Zajęcia 8  Javascript cz.14const str = "rrrdddllddrrruuuurrddrruurddddlld";
+Twoim zadaniem jest zdekodować ukrytą informację. Dekodowanie rozpoczynasz
+w lewym górnym rogu, a następnie powinieneś się poruszać zgodnie z literami,
+gdzie r oznacza prawo, d dół, l lewo, a u górę.
+Po pobraniu kodów z odpowiednich miejsc zamień je na litery za
+pomocą String.fromCharCode(x) . Wynikiem powinien być wypisane w konsoli hasło.
